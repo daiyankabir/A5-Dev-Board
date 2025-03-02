@@ -249,3 +249,6 @@ document.getElementById("btn-clear").addEventListener("click", function () {
     alert("All tasks are cleared.");
 });
 
+
+
+
