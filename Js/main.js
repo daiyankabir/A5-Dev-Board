@@ -51,7 +51,9 @@ document.getElementById("btn-completed-1").addEventListener("click", function ()
         finishedTaskContainer.appendChild(completedTaskMessage);
 
         alert("Task completed!");
-        console.log("Task completed!", finishedTaskContainer);
+        if (document.getElementById("total-task").innerHTML === '0') {
+            alert("Congratulations! You have completed all tasks.");
+        }
     } else {
         alert("This task is already completed.");
     }
@@ -88,7 +90,9 @@ document.getElementById("btn-completed-2").addEventListener("click", function ()
         finishedTaskContainer.appendChild(completedTaskMessage);
 
         alert("Task completed!");
-        console.log("Task completed!", finishedTaskContainer);
+        if (document.getElementById("total-task").innerHTML === '0') {
+            alert("Congratulations! You have completed all tasks.");
+        }
     } else {
         alert("This task is already completed.");
     }
@@ -125,7 +129,9 @@ document.getElementById("btn-completed-3").addEventListener("click", function ()
         finishedTaskContainer.appendChild(completedTaskMessage);
 
         alert("Task completed!");
-        console.log("Task completed!", finishedTaskContainer);
+        if (document.getElementById("total-task").innerHTML === '0') {
+            alert("Congratulations! You have completed all tasks.");
+        }
     } else {
         alert("This task is already completed.");
     }
@@ -162,7 +168,9 @@ document.getElementById("btn-completed-4").addEventListener("click", function ()
         finishedTaskContainer.appendChild(completedTaskMessage);
 
         alert("Task completed!");
-        console.log("Task completed!", finishedTaskContainer);
+        if (document.getElementById("total-task").innerHTML === '0') {
+            alert("Congratulations! You have completed all tasks.");
+        }
     } else {
         alert("This task is already completed.");
     }
@@ -198,7 +206,9 @@ document.getElementById("btn-completed-5").addEventListener("click", function ()
         finishedTaskContainer.appendChild(completedTaskMessage);
 
         alert("Task completed!");
-        console.log("Task completed!", finishedTaskContainer);
+        if (document.getElementById("total-task").innerHTML === '0') {
+            alert("Congratulations! You have completed all tasks.");
+        }
     } else {
         alert("This task is already completed.");
     }
@@ -235,7 +245,9 @@ document.getElementById("btn-completed-6").addEventListener("click", function ()
         finishedTaskContainer.appendChild(completedTaskMessage);
 
         alert("Task completed!");
-        console.log("Task completed!", finishedTaskContainer);
+        if (document.getElementById("total-task").innerHTML === '0') {
+            alert("Congratulations! You have completed all tasks.");
+        }
     } else {
         alert("This task is already completed.");
     }
@@ -249,6 +261,10 @@ document.getElementById("btn-clear").addEventListener("click", function () {
     alert("All tasks are cleared.");
 });
 
+// console.log(document.getElementById("total-task").innerText);
 
+// if (document.getElementById("total-task").innerHTML === '0') {
+//     alert("Congratulations! You have completed all tasks.");
+// }
 
 
